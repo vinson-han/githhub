@@ -1,3 +1,11 @@
+import { Route, Routes } from "react-router";
+
+import HomePage from "./pages/HomePage";
+
 export default function App() {
-  return <h1 className="text-red-500 bg-blue-500">Hello world!</h1>;
+  return (
+    <div>
+      <Routes>{/* <Route path="/" element={}></Route> */}</Routes>
+    </div>
+  );
 }
