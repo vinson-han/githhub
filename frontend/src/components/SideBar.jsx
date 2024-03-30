@@ -7,7 +7,7 @@ import { MdEditDocument } from "react-icons/md";
 import Logout from "./Logout";
 import { useAuthContext } from "../context/AuthContext";
 
-const Sidebar = () => {
+const SideBar = () => {
 	const { authUser } = useAuthContext();
 
 	return (
@@ -73,4 +73,4 @@ const Sidebar = () => {
 		</aside>
 	);
 };
-export default Sidebar;
+export default SideBar;

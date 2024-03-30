@@ -7,7 +7,7 @@ import HomePage from "./pages/HomePage";
 import ExplorePage from "./pages/ExplorePage";
 import LikesPage from "./pages/LikesPage";
 
-import Sidebar from "./components/Sidebar";
+import SideBar from "./components/SideBar";
 import { useAuthContext } from "./context/AuthContext";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
 
 	return (
 		<div className='flex'>
-			<Sidebar />
+			<SideBar />
 			<div className='max-w-5xl my-5 text-white mx-auto transition-all duration-300 flex-1'>
 				<Routes>
 					<Route path='/' element={<HomePage />} />
